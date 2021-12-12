@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44cbc8e99fcf55d4e95cdee38a51e42d, type: 3}
+  m_Name: PlaygroundSO
+  m_EditorClassIdentifier: 
+  title: Playground
+  level360Texture: {fileID: 2800000, guid: facd1169a249a6f43abfdcf0c905b145, type: 3}
+  levelImage: {fileID: 2800000, guid: d18328affe0afd34898cecee2b137a1f, type: 3}
+  contentDatas:
+  - titleString: Safety engineering
+    contentString: Safety engineering is an engineering discipline which assures
+      that engineered systems provide acceptable levels of safety. It is strongly
+      related to industrial engineering/systems engineering, and the subset system
+      safety engineering. Safety engineering assures that a life-critical system
+      behaves as needed, even when components fail.
+    contentImage: {fileID: 2800000, guid: 873e3b129e334794b856ea28bbb0f970, type: 3}
+    localPosition: {x: -2.0641456, y: 0.9247891, z: -4.3467317}
+    localRotation: {x: 349.1212, y: 205.40176, z: 0.81456465}
+  - titleString: Swing (seat)
+    contentString: A swing is a seat, often found at playgrounds for children, at
+      a circus for acrobats, or on a porch for relaxing, although they may also be
+      items of indoor furniture, such as the Latin American hammock or the Indian
+      oonjal. The seat of a swing may be suspended from chains or ropes. Once a swing
+      is in motion, it continues to oscillate like a pendulum until external interference
+      or drag brings it to a halt. Swing sets are very popular with children.
+    contentImage: {fileID: 2800000, guid: 55e50f61c78961b499ad93bc717a5764, type: 3}
+    localPosition: {x: -3.7597237, y: 0, z: 3.142372}
+    localRotation: {x: 0, y: 309.88882, z: 0}
+  - titleString: Road
+    contentString: 'A road is a wide way leading from one place to another, typically
+      one with a usally prepared surface which vehicles and bikes can use.
+
+
+
+      Roads
+      consist of one or two roadways (British English: carriageways), each with one
+      or more lanes and any associated sidewalks (British English: pavement) and
+      road verges. A bike path (British English: cycle path) - a road for use by
+      bicycles - may or may not run in parallel with other roads.
+
+
+
+      Other
+      names for a road include: parkway; avenue; freeway, motorway or expressway;
+      tollway; interstate; highway; thoroughfare; or primary, secondary, and tertiary
+      local road.'
+    contentImage: {fileID: 2800000, guid: b6d6f5836d9ca1140974c29058913e23, type: 3}
+    localPosition: {x: 4.8035727, y: -0.7944831, z: -0.55181074}
+    localRotation: {x: 9.331098, y: 96.55313, z: -0.0000008652223}

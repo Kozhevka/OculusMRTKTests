@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44cbc8e99fcf55d4e95cdee38a51e42d, type: 3}
+  m_Name: FabricShopSO
+  m_EditorClassIdentifier: 
+  title: FabricShop
+  level360Texture: {fileID: 2800000, guid: bdb99a7866e5c7c438f7b9afff5e5af4, type: 3}
+  levelImage: {fileID: 2800000, guid: 2ec4eda27adcc374da0cc6ed4fadf86e, type: 3}
+  contentDatas:
+  - titleString: Honeycomb
+    contentString: A honeycomb is a mass of hexagonal prismatic wax cells built by
+      honey bees in their nests to contain their larvae and stores of honey and pollen.
+    contentImage: {fileID: 2800000, guid: 38531617c5a33114698bb3e15a939106, type: 3}
+    localPosition: {x: 4.3065796, y: 0, z: 2.3373864}
+    localRotation: {x: -0, y: 61.5092, z: -0}
+  - titleString: Carpet
+    contentString: "In the USSR, carpets became an essential item in everyday life.
+      In fact a superstition connected to carpets states that \u201Cone should not
+      nail the carpet to the wall, it may lead to a row in the family.\u201D This
+      superstition is similar to the ancient Russian belief about salt, which says,
+      \u201Cif you spill the salt, you\u2019ll get in a row with the one who saw
+      you do it.\u201D"
+    contentImage: {fileID: 2800000, guid: b97e6c09210385a438f0d206626ff758, type: 3}
+    localPosition: {x: 1.3848184, y: -0.7944831, z: -4.63261}
+    localRotation: {x: 9.331098, y: 163.3571, z: -0.00000043261116}
+  - titleString: Apple
+    contentString: "Apple, (Malus domestica), fruit of the domesticated tree Malus
+      domestica (family Rosaceae), one of the most widely cultivated tree fruits.
+      The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding
+      tissue both become fleshy and edible. The apple flower of most varieties requires
+      cross-pollination for fertilization. When harvested, apples are usually roundish,
+      5\u201310 cm (2\u20134 inches) in diameter, and some shade of red, green, or
+      yellow in colour; they vary in size, shape, and acidity depending on the variety."
+    contentImage: {fileID: 2800000, guid: 34691a686e1e3cf429929224861a8435, type: 3}
+    localPosition: {x: -4.4441, y: -2.0450199, z: -0.2790556}
+    localRotation: {x: 24.66746, y: 266.40698, z: 0.0000065765566}

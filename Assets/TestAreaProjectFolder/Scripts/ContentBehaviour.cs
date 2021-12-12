@@ -15,7 +15,12 @@ public class ContentBehaviour : UIHelper
     [SerializeField] private TextMeshProUGUI titleTextHolder;
     [SerializeField] private TextMeshProUGUI contentTextHolder;
 
-
+    [Header("Quick data writer, after enter, loadData in contextMenu")]
+    [SerializeField] private string title;
+    [SerializeField, TextArea(2,5)] private string description;
+    [SerializeField] private Texture image;
+    
+    
     private void OnEnable()
     {
         buttonOnSphere.onClick.AddListener(OpenButtonClick);
@@ -49,6 +54,14 @@ public class ContentBehaviour : UIHelper
         contentData.ContentImage = contentImage.texture == null ? null : contentImage.texture;
 
         return contentData;
+    }
+
+    [ContextMenu("Overwrite fields")]
+    private void OverwriteData()
+    {
+        titleTextHolder.text = title;
+        contentTextHolder.text = description;
+        contentImage.texture = image;
     }
     
     private void OpenButtonClick()
