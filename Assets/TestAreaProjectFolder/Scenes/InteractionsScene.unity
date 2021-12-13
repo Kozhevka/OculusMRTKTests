@@ -136,7 +136,7 @@ GameObject:
   m_Layer: 0
   m_Name: 360Sphere
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -483,8 +483,8 @@ GameObject:
   - component: {fileID: 1087739260}
   - component: {fileID: 1087739259}
   - component: {fileID: 1087739258}
-  - component: {fileID: 1087739257}
   - component: {fileID: 1087739262}
+  - component: {fileID: 1087739257}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -789,11 +789,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3942325742123361821, guid: c8575d780ebfcf94bb9eac56108f6aa5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3942325742123361821, guid: c8575d780ebfcf94bb9eac56108f6aa5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.75
+      value: 0.365
       objectReference: {fileID: 0}
     - target: {fileID: 3942325742123361821, guid: c8575d780ebfcf94bb9eac56108f6aa5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -821,6 +821,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3942325742123361821, guid: c8575d780ebfcf94bb9eac56108f6aa5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7825279180062853422, guid: c8575d780ebfcf94bb9eac56108f6aa5, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8977629929917649211, guid: c8575d780ebfcf94bb9eac56108f6aa5, type: 3}

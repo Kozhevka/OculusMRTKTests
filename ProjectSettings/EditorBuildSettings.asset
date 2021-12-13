@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/TestAreaProjectFolder/Scenes/InteractionsScene.unity
+    guid: 00c2f9718928966439182072976f8c3d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c493ed23cda759349b436443aaa7a597, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 376dbb1a2d898d045b4d4e99dd8134bb, type: 2}
